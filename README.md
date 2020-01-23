@@ -10,7 +10,7 @@ etc.]) Some components might need additional libraries and/or api keys to run.
 
     1)yFiles (trial license)
 
-    2)ace.js (javascript base for editor used by Atom and VSCode with color highlighting depending the language)
+    2)ace.js (javascript base for editor used by Atom and VSCode)
 
     3)jfxtras
 
