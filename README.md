@@ -39,5 +39,7 @@ etc.]) Some components might need additional libraries and/or api keys to run.
     9)A mini library with 93 pre-made alert classes and the parent Interface
 
     10)IP Scanner
+    
+    11)An improved Browser component
 
 More details soon
