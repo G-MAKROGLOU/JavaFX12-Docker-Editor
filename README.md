@@ -1,45 +1,67 @@
 # JavaFX12-Docker-Editor
 Docker Editor built with JavaFX12 and ace.js on Maven 3.6.0  
 
-Extracted from a bigger application. All source code will be available ready for integration. More components of that application
-will be uploaded soon so you can choose a component or the whole app. This is a single person made application so keep in mind that
-minor fixes in some components might be needed. (E.g DBMS Supports only very basic types for now [CHAR, VARCHAR, INT, FLOAT, BLOB,
-etc.]) Some components might need additional libraries and/or api keys to run. 
+Extracted from a bigger application. More components of that application will be uploaded soon so you can choose a component or the whole app. This is a single person made application so keep in mind that minor fixes in some components might be needed. (E.g DBMS Supports only very basic types for now [CHAR, VARCHAR, INT, FLOAT, BLOB,
+etc.]) Some components might need additional libraries and/or api keys to run.
 
--All external libraries used:
 
-    1)yFiles (trial license)
+Add the following dependenices in your pom.xml: 
+    <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-databind</artifactId>
+            <version>${jackson.version}</version>
+        </dependency>
 
-    2)ace.js (javascript base for editor used by Atom and VSCode)
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-annotations</artifactId>
+            <version>${jackson.version}</version>
+        </dependency>
 
-    3)jfxtras
+        <dependency>
+            <groupId>org.openjfx</groupId>
+            <artifactId>javafx-controls</artifactId>
+            <version>${javafx.version}</version>
+        </dependency>
 
-    4)controlsFX
+        <dependency>
+            <groupId>org.openjfx</groupId>
+            <artifactId>javafx-web</artifactId>
+            <version>${javafx.version}</version>
+        </dependency>
 
-    5)fontawesome-9.1.2
+        <dependency>
+            <groupId>org.openjfx</groupId>
+            <artifactId>javafx-fxml</artifactId>
+            <version>${javafx.version}</version>
+        </dependency>
 
--Upcoming JavaFX12 and Maven 6.3.0 Components:
+        <dependency>
+            <groupId>org.jetbrains</groupId>
+            <artifactId>annotations</artifactId>
+            <version>16.0.2</version>
+        </dependency>
 
-    1)Docker Editor (ace.js)
+        <dependency>
+            <groupId>org.kordamp.ikonli</groupId>
+            <artifactId>ikonli-javafx</artifactId>
+            <version>11.3.4</version>
+        </dependency>
 
-    2)MySQL DBMS (Database Management System)
+        <dependency>
+            <groupId>org.kordamp.ikonli</groupId>
+            <artifactId>ikonli-fontawesome-pack</artifactId>
+            <version>11.3.4</version>
+        </dependency>
 
-    3)Calendar - Agenta
+        <dependency>
+            <groupId>org.kordamp.ikonli</groupId>
+            <artifactId>ikonli-typicons-pack</artifactId>
+            <version>11.3.4</version>
+        </dependency>
 
-    4)Password safe
-
-    5)PII safe
-
-    6)Credit card safe
-
-    7)Calculator
-
-    8)Frequently Typed Commands Terminal
-
-    9)A mini library with 93 pre-made alert classes and the parent Interface
-
-    10)IP Scanner
-    
-    11)An improved Browser component
-
-More details soon
+        <dependency>
+            <groupId>org.controlsfx</groupId>
+            <artifactId>controlsfx</artifactId>
+            <version>11.0.0</version>
+        </dependency>
