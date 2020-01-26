@@ -5,7 +5,7 @@ Extracted from a bigger application. More components of that application will be
 etc.]) Some components might need additional libraries and/or api keys to run.
 
 
-**Project structure:
+##Project structure:
             
             root
               |___ src
@@ -47,7 +47,7 @@ etc.]) Some components might need additional libraries and/or api keys to run.
               |____ pom.xml
 
 
-**Add the following dependenices in your pom.xml: 
+##Add the following dependenices in your pom.xml: 
 
         <dependency>
             <groupId>com.fasterxml.jackson.core</groupId>
