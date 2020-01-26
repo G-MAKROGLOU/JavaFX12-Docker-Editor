@@ -1,5 +1,5 @@
 # JavaFX12-Docker-Editor
-Docker Editor built with JavaFX12 and ace.js on Maven 3.6.0  
+### Docker Editor built with JavaFX12 and ace.js on Maven 3.6.0  
 
 You can use it as a standalone application by following the ```Standalone``` instructions, or embed it in your own project easily by following the ```Embed in my application``` instructions. Because Dockerfiles are all named by default ```Dockerfile```, anytime you are asked for a file name you should type something that describes the Dockerfile best and a folder with that name and the actual Dockerfile inside it will be created. ```ace.js``` is loaded as a whole in for future scaling or forks that might want to expand the functionality beyond Docker. In order to function properly you should configure the paths in the classes under ```docker_management``` folder to match your computers filesystem. 
 
