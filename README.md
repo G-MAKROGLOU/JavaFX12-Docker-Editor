@@ -1,9 +1,7 @@
 # JavaFX12-Docker-Editor
 Docker Editor built with JavaFX12 and ace.js on Maven 3.6.0  
 
-Extracted from a bigger application. More components of that application will be uploaded soon so you can choose a component or the whole app. This is a single person made application so keep in mind that minor fixes in some components might be needed. (E.g DBMS Supports only very basic types for now [CHAR, VARCHAR, INT, FLOAT, BLOB,
-etc.]) Some components might need additional libraries and/or api keys to run.
-
+You can use it as a standalone application, or embed it in your own project easily by following the ```Embed in my application``` instructions. 
 
 ## Project structure:
             
