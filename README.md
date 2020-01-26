@@ -6,7 +6,7 @@ etc.]) Some components might need additional libraries and/or api keys to run.
 
 
 Project structure:
-                ````src
+                   ```src
                      |___ main
                            |___ java
                            |      |___ mainScene
@@ -35,7 +35,7 @@ Project structure:
                                   |      |____ docker_management
                                   |      |           |____________ dockerfiles
                                   |      |           |                 |__________ rpi_stretch_java
-                                  |      |           |                                     |__________ Dockerfile
+                                  |      |           |                                     |__________ Dockerfile```
 
 
 
