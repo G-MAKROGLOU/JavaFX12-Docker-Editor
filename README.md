@@ -44,3 +44,9 @@ You can use it as a standalone application by following the ```Standalone``` ins
               |
               |____ pom.xml
 
+
+
+
+## Standalone:
+
+          
