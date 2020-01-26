@@ -33,15 +33,18 @@ You can use it as a standalone application by following the ```Standalone``` ins
               |                   |
               |                   |____ fxml
               |                          |____ docker_management
-              |                                      |____________ dockerfiles
-              |                                      |                 |__________ rpi_stretch_java
-              |                                      |                                     |__________ Dockerfile
-              |                                      |
-              |                                      |_______ defaultDockerfile.fxml
-              |                                      |_______ dockerfileTemplateFolderName.fxml
-              |                                      |_______ dockerMain.fxml
-              |                                      |_______ saveOptions.fxml
-              |
+              |                          |           |____________ dockerfiles
+              |                          |           |                 |__________ rpi_stretch_java
+              |                          |           |                                     |__________ Dockerfile
+              |                          |           |
+              |                          |           |_______ defaultDockerfile.fxml
+              |                          |           |_______ dockerfileTemplateFolderName.fxml
+              |                          |                  |_______ dockerMain.fxml
+              |                          |                  |_______ saveOptions.fxml
+              |                          |
+              |                          |____ mainScene
+              |                                    |____ mainScene.fxml
+              |                   
               |____ pom.xml
 
 
