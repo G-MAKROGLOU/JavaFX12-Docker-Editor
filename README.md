@@ -47,7 +47,7 @@ etc.]) Some components might need additional libraries and/or api keys to run.
               |____ pom.xml
 
 
-## Add the following dependenices in your pom.xml:## 
+## Add the following dependenices in your pom.xml:  
 
         <dependency>
             <groupId>com.fasterxml.jackson.core</groupId>
