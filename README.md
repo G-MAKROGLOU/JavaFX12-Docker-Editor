@@ -39,8 +39,8 @@ You can use it as a standalone application by following the ```Standalone``` ins
               |                          |           |
               |                          |           |_______ defaultDockerfile.fxml
               |                          |           |_______ dockerfileTemplateFolderName.fxml
-              |                          |                  |_______ dockerMain.fxml
-              |                          |                  |_______ saveOptions.fxml
+              |                          |           |_______ dockerMain.fxml
+              |                          |           |_______ saveOptions.fxml
               |                          |
               |                          |____ mainScene
               |                                    |____ mainScene.fxml
