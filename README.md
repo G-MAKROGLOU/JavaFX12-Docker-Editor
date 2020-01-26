@@ -6,11 +6,33 @@ You can use it as a standalone application by following the ```Standalone``` ins
 ## Project structure:
             
             root
+              |___ images
+              |     |____ docker_50px.png
+              |
               |___ src
               |     |___main
               |           |____ java
+              |           |      |_____ alerts
+              |           |      |         |____ GeneralAlert.java
+              |           |      |         |____ CouldNotCreateDockerfile.java
+              |           |      |         |____ CouldNotCreateFolder.java
+              |           |      |         |____ CouldNotOpenDockerfileAlert.java
+              |           |      |         |____ DockerfileAddedToTemplatesAlert.java
+              |           |      |         |____ DockerfileCreatedSuccessfully.java
+              |           |      |         |____ DockerfileDeletedSuccessfully.java
+              |           |      |         |____ DockerfileDeletionConfirmation.java
+              |           |      |         |____ DockerfileSavedSuccessfully.java
+              |           |      |         |____ EmptyEditorAlert.java
+              |           |      |         |____ FailedToAddDockerfileToTemplates.java
+              |           |      |         |____ FailedToDeleteDockerfileDirectory.java
+              |           |      |         |____ FailedToSaveDockerfile.java
+              |           |      |         |____ NoChangesInFileAlert.java
+              |           |      |         |____ NoSaveOptionSelected.java
+              |           |      |         |____ UnsavedChangesInFileAlert.java
+              |           |      |
+              |           |      |
               |           |      |_____ mainScene
-              |           |      |            |_______ MainScene.java
+              |           |      |          |_______ MainScene.java
               |           |      |
               |           |      |_____ docker_management
               |           |      |            |__________ DefaultDockerfile.java
