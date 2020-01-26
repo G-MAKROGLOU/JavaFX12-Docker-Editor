@@ -6,7 +6,8 @@ etc.]) Some components might need additional libraries and/or api keys to run.
 
 
 Add the following dependenices in your pom.xml: 
-    <dependency>
+
+        <dependency>
             <groupId>com.fasterxml.jackson.core</groupId>
             <artifactId>jackson-databind</artifactId>
             <version>${jackson.version}</version>
