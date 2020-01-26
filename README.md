@@ -67,3 +67,29 @@ Java HotSpot(TM) 64-Bit Server VM (build 12.0.1+12, mixed mode, sharing)
 #### mvn -version
 ```Apache Maven 3.6.1  ....```
           
+## Embed in existing application:
+
+To embed the ```Docker Editor FX``` in a project you are developing, make sure your development enivronment matches the development environment of ```Docker Editor FX```, select the place in your code where you want to launch the editor and use the function :
+
+            public void launchDockerManagement(){
+                    Thread thread = new Thread(() -> {
+                        FXMLLoader loader = new FXMLLoader();
+                        loader.setLocation(getClass().getResource("/fxml/docker_management/dockerMain.fxml"));
+                        Parent root = null;
+                        try{
+                            root = loader.load();
+                        }catch(IOException exception){
+                            exception.printStackTrace();
+                        }
+                        assert root != null;
+                        DockerMain controller = loader.getController();
+                        controller.setDockerMainController(controller);
+                        Tab tab = new Tab("Docker Management");
+                        tab.setContent(root);
+                        getMainTabPane().getTabs().add(tab);
+                        getMainTabPane().getSelectionModel().select(tab);
+                    });
+                    thread.run();
+            }
+
+       
