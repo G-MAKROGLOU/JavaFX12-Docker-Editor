@@ -52,7 +52,7 @@ You can use it as a standalone application by following the ```Standalone``` ins
 
 ## Standalone:
 
-You can either clone the whole repository, or use the ```pom.xml``` file to make sure you get the same ```Maven``` configurations and dependencies.  
+You can either clone the whole repository, import it in your IDE, and run it, or use the ```pom.xml``` file in your own project to make sure you get the same ```Maven``` configurations and dependencies.  
 
 #### javac --version
 ```javac 12.0.1```
