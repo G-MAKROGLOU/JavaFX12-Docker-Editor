@@ -5,6 +5,40 @@ Extracted from a bigger application. More components of that application will be
 etc.]) Some components might need additional libraries and/or api keys to run.
 
 
+Project structure:
+                src
+                 |___ main
+                       |___ java
+                       |      |___ mainScene
+                       |      |        |__________ MainScene.java
+                       |      |
+                       |      |___ docker_management
+                       |      |            |__________ DefaultDockerfile.java
+                       |      |            |__________ DockerfileTemplateFolderName.java
+                       |      |            |__________ DockerMain.java
+                       |      |            |__________ EditorStyles.java
+                       |      |            |__________ SaveOptions.java
+                       |      |
+                       |      |
+                       |      |___ module-info.java
+                       |
+                       |___ resources
+                              |
+                              |____ docker_editor
+                              |           |__________ editor.css
+                              |           |__________ editor.html
+                              |           |__________ editor.js
+                              |           |__________ src-noconflict
+                              |                             |______ ace.js (files)
+                              |
+                              |____ fxml
+                              |      |____ docker_management
+                              |      |           |____________ dockerfiles
+                              |      |           |                 |__________ rpi_stretch_java
+                              |      |           |                                     |__________ Dockerfile
+
+
+
 Add the following dependenices in your pom.xml: 
 
         <dependency>
