@@ -114,4 +114,4 @@ To embed the ```Docker Editor FX``` in a project you are developing, make sure y
                     thread.run();
             }
 
-As soon as ```root``` is loaded, you can use  it as content to any component you want; the example uses a ```Tab``` and then attaches the ```Tab``` to a central ```TabPane```. It is recomended to start it as ```Thread``` so the rest of your ```UI``` doesn't break. ```Docker Editor FX``` is also modularized so you can use it as a module with the ```module-info.java``` file.
+As soon as ```root``` is loaded, you can use  it as content to any component you want; the example uses a ```Tab``` and then attaches the ```Tab``` to a central ```TabPane```. It is recomended to start it as ```Thread``` so the rest of your ```UI``` doesn't break. ```Docker Editor FX``` is also modularized so you can use it as a module with the ```module-info.java``` file. When used this way, ```mainScene``` is not needed because you are going to have your own base to mount the editor.
