@@ -6,15 +6,15 @@ etc.]) Some components might need additional libraries and/or api keys to run.
 
 
 Project structure:
-                   ```src
-                     |___ main
-                           |___ java
-                           |      |___ mainScene
-                           |      |        |__________ MainScene.java
-                           |      |
-                           |      |___ docker_management
-                           |      |            |__________ DefaultDockerfile.java
-                           |      |            |__________ DockerfileTemplateFolderName.java
+                   *src
+                     * main
+                         * java
+                            * mainScene
+                                 *MainScene.java
+                                 
+                            *docker_management
+                                    *DefaultDockerfile.java
+                                    *DockerfileTemplateFolderName.java
                            |      |            |__________ DockerMain.java
                            |      |            |__________ EditorStyles.java
                            |      |            |__________ SaveOptions.java
