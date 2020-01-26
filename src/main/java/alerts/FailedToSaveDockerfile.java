@@ -30,7 +30,7 @@ public class FailedToSaveDockerfile implements GeneralAlert {
 
     private String getConnectionErrorContent() {
         return "The changes in this Dockerfile were not saved.\n" +
-                "Make sure that the file is still in the same\n" +
+                "Make sure that the file is still in the same folder\n" +
                 "since you opened it.";
     }
 
