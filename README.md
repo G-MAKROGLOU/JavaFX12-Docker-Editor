@@ -6,9 +6,10 @@ etc.]) Some components might need additional libraries and/or api keys to run.
 
 
 Project structure:
+
                    *src
-                     * main
-                         * java
+                     *main
+                         *java
                             * mainScene
                                  *MainScene.java
                                  
