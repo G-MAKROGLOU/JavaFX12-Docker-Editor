@@ -1,7 +1,7 @@
 # JavaFX12-Docker-Editor
 Docker Editor built with JavaFX12 and ace.js on Maven 3.6.0  
 
-You can use it as a standalone application, or embed it in your own project easily by following the ```Embed in my application``` instructions. 
+You can use it as a standalone application by following the ```Standalone``` instructions, or embed it in your own project easily by following the ```Embed in my application``` instructions. 
 
 ## Project structure:
             
