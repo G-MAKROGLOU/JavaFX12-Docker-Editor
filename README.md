@@ -49,4 +49,18 @@ You can use it as a standalone application by following the ```Standalone``` ins
 
 ## Standalone:
 
+You can either clone the whole repository, or use the ```pom.xml``` file to make sure you get the same ```Maven``` configurations and dependencies.  
+
+#### javac --version
+```javac 12.0.1```
+
+#### java --version
+```
+java 12.0.1 2019-04-16
+Java(TM) SE Runtime Environment (build 12.0.1+12)
+Java HotSpot(TM) 64-Bit Server VM (build 12.0.1+12, mixed mode, sharing)
+```
+
+#### mvn -version
+```Apache Maven 3.6.1  ....```
           
