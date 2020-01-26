@@ -9,21 +9,21 @@ Project structure:
 
                    src
                     |___main
-                         *java
-                            * mainScene
-                                 *MainScene.java
-                                 
-                            *docker_management
-                                    *DefaultDockerfile.java
-                                    *DockerfileTemplateFolderName.java
-                           |      |            |__________ DockerMain.java
-                           |      |            |__________ EditorStyles.java
-                           |      |            |__________ SaveOptions.java
-                           |      |
-                           |      |
-                           |      |___ module-info.java
-                           |
-                           |___ resources
+                          |____ java
+                          |      |_____ mainScene
+                          |      |            |_______ MainScene.java
+                          |      |
+                          |      |_____ docker_management
+                          |      |            |__________ DefaultDockerfile.java
+                          |      |            |__________ DockerfileTemplateFolderName.java
+                          |      |            |__________ DockerMain.java
+                          |      |            |__________ EditorStyles.java
+                          |      |            |__________ SaveOptions.java
+                          |      |
+                          |      |
+                          |      |___ module-info.java
+                          |
+                          |___ resources
                                   |
                                   |____ docker_editor
                                   |           |__________ editor.css
@@ -36,7 +36,7 @@ Project structure:
                                   |      |____ docker_management
                                   |      |           |____________ dockerfiles
                                   |      |           |                 |__________ rpi_stretch_java
-                                  |      |           |                                     |__________ Dockerfile```
+                                  |      |           |                                     |__________ Dockerfile
 
 
 
